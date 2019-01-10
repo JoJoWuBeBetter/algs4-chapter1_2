@@ -14,8 +14,7 @@ public class Ex01 {
         for (int i = 0; i < N; i++) {
             double x = Math.random();
             double y = Math.random();
-            Point2D p = new Point2D(x, y);
-            points[i] = p;
+            points[i] = new Point2D(x, y);
         }
 
         double minDistance = 100;
